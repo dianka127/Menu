@@ -6,10 +6,6 @@ export const routes: Routes = [
     loadChildren: () =>
       import('./my-dishes/my-dishes.module').then(module => module.MyDishesModule),
   },
-  {
-    path: 'my-dishes/dish',
-    loadChildren: () =>
-      import('./dish/dish.module').then(module => module.DishModule),
-  },
+
 
 ];
